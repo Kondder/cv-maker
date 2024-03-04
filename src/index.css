@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  padding: 0;
+  background-color: grey;
+}
+
+.section-person-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar-img{  
+  width: 220px;
+  height: 220px;
+
+  border-radius: 50%;
+
+  object-fit: cover; /*none y cover funcionan bien*/
+  object-position: 90% 30%;
+}
+.principal-section{
+  display:flex;
+  flex:2;
+  justify-content: space-around;
+}
+
+.left-section{
+  background-color: rgb(85, 85, 85);
+}
+
+.date-information{
+  display: flex;
+  justify-content:space-between;
+}
+.right-section-personal-info{
+  background-color: bisque;
+}
+h1 {
+  font-family: Helvetica, sans-serif;
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+.section-information{
+  margin-bottom: 25px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
